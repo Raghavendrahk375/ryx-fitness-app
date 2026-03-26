@@ -49,4 +49,14 @@ public class PlansPage {
     public boolean isProceedButtonPresent() {
         return driver.findElements(By.cssSelector("[data-testid='proceed-payment-btn']")).size() > 0;
     }
+    
+    public void selectPlan(String planType) {
+        if (planType.equals("monthly")) {
+            clickMonthlyPlan();
+        } else if (planType.equals("quarterly")) {
+            clickQuarterlyPlan();
+        } else if (planType.equals("yearly")) {
+            clickYearlyPlan();
+        }
+    }
 }
