@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\91843\AppData\Local\Temp\testng-eclipse--659495731\testng-customsuite.xml</span>
+                    <span>C:\Users\91843\AppData\Local\Temp\testng-eclipse-887279388\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +103,27 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.GymTest" class="method navigator-link" hash-for-method="testPlansVisibility">testPlansVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.GymTest" class="method navigator-link" hash-for-method="testProceedWithoutSelection">testProceedWithoutSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="tests.GymTest" class="method navigator-link" hash-for-method="testSelectMonthlyPlan">testSelectMonthlyPlan</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="tests.GymTest" class="method navigator-link" hash-for-method="testSelectQuarterlyPlan">testSelectQuarterlyPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tests.GymTest" class="method navigator-link" hash-for-method="testSelectYearlyPlan">testSelectYearlyPlan</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -131,6 +146,20 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="testPlansVisibility">
+                  </a> <!-- testPlansVisibility -->
+                  <span class="method-name">testPlansVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProceedWithoutSelection">
+                  </a> <!-- testProceedWithoutSelection -->
+                  <span class="method-name">testProceedWithoutSelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testSelectMonthlyPlan">
                   </a> <!-- testSelectMonthlyPlan -->
                   <span class="method-name">testSelectMonthlyPlan</span>
@@ -143,12 +172,19 @@
                   <span class="method-name">testSelectQuarterlyPlan</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectYearlyPlan">
+                  </a> <!-- testSelectYearlyPlan -->
+                  <span class="method-name">testSelectYearlyPlan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\91843\AppData\Local\Temp\testng-eclipse--659495731\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\91843\AppData\Local\Temp\testng-eclipse-887279388\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -197,20 +233,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testSelectQuarterlyPlan')
+data.setCell(0, 1, 'testSelectMonthlyPlan')
 data.setCell(0, 2, 'tests.GymTest')
-data.setCell(0, 3, 138);
+data.setCell(0, 3, 166);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testSelectMonthlyPlan')
+data.setCell(1, 1, 'testSelectYearlyPlan')
 data.setCell(1, 2, 'tests.GymTest')
-data.setCell(1, 3, 111);
+data.setCell(1, 3, 143);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSelectQuarterlyPlan')
+data.setCell(2, 2, 'tests.GymTest')
+data.setCell(2, 3, 136);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testPlansVisibility')
+data.setCell(3, 2, 'tests.GymTest')
+data.setCell(3, 3, 136);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testProceedWithoutSelection')
+data.setCell(4, 2, 'tests.GymTest')
+data.setCell(4, 3, 29);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 249 ms</span>
+              <span class="suite-total-time">Total running time: 610 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -242,24 +290,60 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testSelectMonthlyPlan</span>
-                <span class="method-start">3956 ms</span>
+                <span class="method-name">testPlansVisibility</span>
+                <span class="method-start">2959 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">4071 ms</span>
+                <span class="method-start">3099 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">4305 ms</span>
+                <span class="method-start">3389 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testSelectQuarterlyPlan</span>
-                <span class="method-start">6204 ms</span>
+                <span class="method-name">testProceedWithoutSelection</span>
+                <span class="method-start">5625 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">6343 ms</span>
+                <span class="method-start">5655 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5864 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectMonthlyPlan</span>
+                <span class="method-start">7802 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7969 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8160 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectQuarterlyPlan</span>
+                <span class="method-start">10071 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10209 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">10409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectYearlyPlan</span>
+                <span class="method-start">12427 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12571 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

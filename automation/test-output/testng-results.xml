@@ -1,33 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-25T18:01:12 IST" name="Default suite" finished-at="2026-03-25T18:01:19 IST" duration-ms="6634">
+  <suite started-at="2026-03-25T19:41:27 IST" name="Default suite" finished-at="2026-03-25T19:41:40 IST" duration-ms="12830">
     <groups>
     </groups>
-    <test started-at="2026-03-25T18:01:12 IST" name="Default test" finished-at="2026-03-25T18:01:19 IST" duration-ms="6634">
+    <test started-at="2026-03-25T19:41:27 IST" name="Default test" finished-at="2026-03-25T19:41:40 IST" duration-ms="12830">
       <class name="tests.GymTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GymTest@70e9c95d]" started-at="2026-03-25T18:01:12 IST" name="setUp" finished-at="2026-03-25T18:01:16 IST" duration-ms="3955" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GymTest@51c668e3]" started-at="2026-03-25T19:41:27 IST" name="setUp" finished-at="2026-03-25T19:41:30 IST" duration-ms="2958" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSelectMonthlyPlan()[pri:0, instance:tests.GymTest@70e9c95d]" started-at="2026-03-25T18:01:16 IST" name="testSelectMonthlyPlan" finished-at="2026-03-25T18:01:16 IST" duration-ms="111" status="PASS">
+        <test-method signature="testPlansVisibility()[pri:0, instance:tests.GymTest@51c668e3]" started-at="2026-03-25T19:41:30 IST" name="testPlansVisibility" finished-at="2026-03-25T19:41:30 IST" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSelectMonthlyPlan -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GymTest@70e9c95d]" started-at="2026-03-25T18:01:16 IST" name="tearDown" finished-at="2026-03-25T18:01:17 IST" duration-ms="233" status="PASS">
+        </test-method> <!-- testPlansVisibility -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GymTest@51c668e3]" started-at="2026-03-25T19:41:30 IST" name="tearDown" finished-at="2026-03-25T19:41:30 IST" duration-ms="288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GymTest@70e9c95d]" started-at="2026-03-25T18:01:17 IST" name="setUp" finished-at="2026-03-25T18:01:19 IST" duration-ms="1899" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GymTest@51c668e3]" started-at="2026-03-25T19:41:30 IST" name="setUp" finished-at="2026-03-25T19:41:32 IST" duration-ms="2236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSelectQuarterlyPlan()[pri:0, instance:tests.GymTest@70e9c95d]" started-at="2026-03-25T18:01:19 IST" name="testSelectQuarterlyPlan" finished-at="2026-03-25T18:01:19 IST" duration-ms="138" status="PASS">
+        <test-method signature="testProceedWithoutSelection()[pri:0, instance:tests.GymTest@51c668e3]" started-at="2026-03-25T19:41:32 IST" name="testProceedWithoutSelection" finished-at="2026-03-25T19:41:32 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProceedWithoutSelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GymTest@51c668e3]" started-at="2026-03-25T19:41:32 IST" name="tearDown" finished-at="2026-03-25T19:41:33 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GymTest@51c668e3]" started-at="2026-03-25T19:41:33 IST" name="setUp" finished-at="2026-03-25T19:41:35 IST" duration-ms="1938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectMonthlyPlan()[pri:0, instance:tests.GymTest@51c668e3]" started-at="2026-03-25T19:41:35 IST" name="testSelectMonthlyPlan" finished-at="2026-03-25T19:41:35 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectMonthlyPlan -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GymTest@51c668e3]" started-at="2026-03-25T19:41:35 IST" name="tearDown" finished-at="2026-03-25T19:41:35 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GymTest@51c668e3]" started-at="2026-03-25T19:41:35 IST" name="setUp" finished-at="2026-03-25T19:41:37 IST" duration-ms="1911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectQuarterlyPlan()[pri:0, instance:tests.GymTest@51c668e3]" started-at="2026-03-25T19:41:37 IST" name="testSelectQuarterlyPlan" finished-at="2026-03-25T19:41:37 IST" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSelectQuarterlyPlan -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GymTest@70e9c95d]" started-at="2026-03-25T18:01:19 IST" name="tearDown" finished-at="2026-03-25T18:01:19 IST" duration-ms="239" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GymTest@51c668e3]" started-at="2026-03-25T19:41:37 IST" name="tearDown" finished-at="2026-03-25T19:41:37 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.GymTest@51c668e3]" started-at="2026-03-25T19:41:37 IST" name="setUp" finished-at="2026-03-25T19:41:39 IST" duration-ms="2018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectYearlyPlan()[pri:0, instance:tests.GymTest@51c668e3]" started-at="2026-03-25T19:41:39 IST" name="testSelectYearlyPlan" finished-at="2026-03-25T19:41:39 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectYearlyPlan -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.GymTest@51c668e3]" started-at="2026-03-25T19:41:39 IST" name="tearDown" finished-at="2026-03-25T19:41:40 IST" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
